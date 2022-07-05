@@ -1,0 +1,55 @@
+{
+	"info": {
+		"_postman_id": "d50c1512-1cb4-498c-ab4e-29amk2928e8d",
+		"name": "Collection Updated",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_uid": "889210-d50c1512-1cb4-498c-ab4e-29amk2928e8d"
+	},
+	"item": [],
+	"auth": {
+		"type": "hawk",
+		"hawk": [
+			{
+				"key": "algorithm",
+				"value": "sha256",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "8759906a-e112-4f63-bfd1-1252deb0b20e",
+				"type": "text/javascript",
+				"exec": [
+					"// Pre Req"
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "a52f6b88-5fe1-479c-b4c8-c319ec09991c",
+				"type": "text/javascript",
+				"exec": [
+					"// Script"
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"id": "2714c3ad-7c8a-4e5b-ac55-14348e3c9c60",
+			"key": "Variable2",
+			"value": "val",
+			"type": "string"
+		},
+		{
+			"id": "2714c3ad-7c8a-4e5b-ac55-14348e3c9c60",
+			"key": "Variable",
+			"value": "val",
+			"type": "string"
+		}
+	]
+}
